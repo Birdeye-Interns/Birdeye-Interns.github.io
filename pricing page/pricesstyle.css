@@ -1,0 +1,15 @@
+.inputs {
+  background-color: rgb(9, 117, 180);
+  color: white;
+}
+.logo img {
+  width: 40px;
+  float: left;
+}
+.logo h2 {
+  color: white;
+}
+
+body {
+  font-family: Arial;
+}
