@@ -60,3 +60,64 @@ nav button {
 
   padding: 55px 0px 25px 0px;
 }
+
+.footer {
+  padding-top: 80px;
+  background-color: #eef1f5;
+  float: left;
+  font-size: 12px;
+  box-sizing: border-box;
+}
+
+.birdeyeBusiness h4 {
+  margin-left: 80px;
+}
+
+.footer ul li {
+  list-style: none;
+  margin-bottom: 13px;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: rgb(131, 129, 129);
+}
+.productsColumn {
+  float: left;
+  margin: 25px;
+  margin-left: 80px;
+}
+
+.objectivesColumn {
+  float: left;
+  margin: 25px;
+}
+
+.industriesColumn {
+  float: left;
+  margin: 25px;
+}
+
+.birdeyeBusiness {
+  float: left;
+}
+.learnMore {
+  float: left;
+}
+.learnMore h4 {
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+
+.companyColumn {
+  margin-left: 25px;
+  margin-right: 40px;
+  float: left;
+}
+.servicesColumn {
+  float: left;
+}
+
+.socialLinks {
+  float: left;
+}
