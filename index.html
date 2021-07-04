@@ -23,49 +23,144 @@
     />
     <link rel="manifest" href="/site.webmanifest" />
     <link rel="stylesheet" href="mystyle.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
 
     <title>Birdeye</title>
   </head>
 
   <body>
-    <div class="navbar">
-      <nav>
-        <div class="logo">
-          <a href="#"
-            ><img src="images/birdeye-logo.svg" alt="birdeye logo"
-          /></a>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a href="#" class="navbar-brand mb-0 h1">
+          <img
+            src="images/birdeye-logo.svg"
+            alt="birdeye-logo"
+            width="90"
+            class="d-inline-block align top"
+          />
+          <span class="hidden">Birdeye</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#toggleMobileMenu"
+          aria-controls="toggleMobileMenu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="toggleMobileMenu">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle active"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Solutions
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a href="#" class="dropdown-item">Link</a></li>
+                <li><a href="#" class="dropdown-item">Link</a></li>
+                <li><a href="#" class="dropdown-item">Link</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle active"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Products
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a href="#" class="dropdown-item">Link</a></li>
+                <li><a href="#" class="dropdown-item">Link</a></li>
+                <li><a href="#" class="dropdown-item">Link</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" class="nav-link active">Partners</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle active"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Resources
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a href="#" class="dropdown-item">Link</a></li>
+                <li><a href="#" class="dropdown-item">Link</a></li>
+                <li><a href="#" class="dropdown-item">Link</a></li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="#" class="nav-link active">Pricing</a>
+            </li>
+
+            <li>
+              <a
+                href="tel:+18005613357"
+                target="_blank"
+                data-clicktag="header_call_lead_link"
+                class="nav-link active"
+                ><img src="images/telephone-logo.svg" alt="" />1 800 561 3357
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link active">Sign in</a>
+            </li>
+          </ul>
+          <button type="button" class="btn btn-primary">Watch Demo</button>
         </div>
-        <ul>
-          <li><a href="#">Solutions</a></li>
-          <li><a href="#">Products</a></li>
-          <li><a href="#">Partners</a></li>
-          <li><a href="#">Resources</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li>
-            <a href="#"
-              ><img src="images/telephone.png" alt="telephone" />1 800 561 3357
-            </a>
-          </li>
-          <li><a href="#">Sign in</a></li>
-        </ul>
-        <button>Watch Demo</button>
-      </nav>
-    </div>
+      </div>
+    </nav>
 
-    <div class="homebanner">
-      <h1>
-        Acquire customers <br />
-        on autopilot
-      </h1>
-      <p>
-        Collect reviews, convert leads, run survers, text <br />customers, get
-        referalls -- all in one place.
-      </p>
-
-      <form action="#">
-        <input type="email" name="user-email" placeholder="Enter your email" />
-        <button type="submit">Watch Demo</button>
-      </form>
+     <div class="container-sm homebanner">
+      <div class="row">
+        <div class="col-5">
+          <h1>
+            Acquire customers <br />
+            on autopilot
+          </h1>
+          <p>
+            Collect reviews, convert leads, run survers, text <br />customers, get
+            referalls -- all in one place.
+          </p>
+      
+          <form class="d-flex">
+            <input type="email" name="user-email" placeholder="Enter your email" class="form-control"/>
+            <button type="button" class="btn btn-primary">Watch Demo</button>
+          </form>
+        </div>
+      </div>
     </div>
 
     <div class="trustbirdeye">
@@ -179,10 +274,8 @@
             <li><a href="#">For Developers</a></li>
             <li><a href="#">Birdeye Support</a></li>
             <li><a href="#">Refer a Business</a></li>
-            <p>testing this is change</p>
           </ul>
         </div>
       </div>
-    </div>
   </body>
 </html>

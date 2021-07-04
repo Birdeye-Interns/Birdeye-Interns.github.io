@@ -1,48 +1,12 @@
-* {
-  margin: 0;
-  padding: 0;
-  font-family: Arial;
+.hidden {
+  display: none;
 }
-
-nav {
-  width: 100%;
-  height: 60px;
-  position: relative;
-}
-
-.logo img {
-  width: 80px;
-  height: 30px;
-  padding: 15px;
-  float: left;
-}
-nav ul li {
-  float: left;
-  list-style: none;
-  position: relative;
-}
-
-nav ul li a {
-  display: block;
-  font-family: Arial;
-  color: black;
-  font-size: 15px;
-  padding: 20px;
-  text-decoration: none;
-}
-nav ul li img {
-  width: 20px;
-  vertical-align: middle;
-}
-
-nav button {
-  padding: 10px;
-  margin-top: 9px;
+body {
+  padding-top: 60px;
 }
 
 .homebanner {
-  background-color: rgba(226, 223, 223, 0.959);
-  padding: 30px;
+  background-color: #f7f7f7;
 }
 .homebanner h1 {
   margin-bottom: 33px;
@@ -51,13 +15,8 @@ nav button {
   margin-bottom: 10px;
 }
 
-.navbar a:hover {
-  color: #337ab7;
-}
-
 .trustbirdeye h2 {
   text-align: center;
-
   padding: 55px 0px 25px 0px;
 }
 
@@ -67,6 +26,7 @@ nav button {
   float: left;
   font-size: 12px;
   box-sizing: border-box;
+  width: 100%;
 }
 
 .birdeyeBusiness h4 {
