@@ -3,6 +3,7 @@
 }
 body {
   padding-top: 60px;
+  font-family: "Poppins", sans-serif !important;
 }
 
 .homebanner {
@@ -20,64 +21,55 @@ body {
   padding: 55px 0px 25px 0px;
 }
 
-.footer {
-  padding-top: 80px;
-  background-color: #eef1f5;
-  float: left;
-  font-size: 12px;
-  box-sizing: border-box;
-  width: 100%;
-}
-
 .birdeyeBusiness h4 {
   margin-left: 80px;
 }
 
-.footer ul li {
-  list-style: none;
-  margin-bottom: 13px;
+section {
+  padding: 60px 0;
 }
 
-.footer ul li a {
-  text-decoration: none;
-  color: rgb(131, 129, 129);
+section .section-title {
+  text-align: center;
+  color: #dbe7e4;
+  margin-bottom: 50px;
+  text-transform: uppercase;
 }
-.productsColumn {
-  float: left;
-  margin: 25px;
-  margin-left: 80px;
+#footer {
+  background-color: #eef1f5 !important;
+  font-size: 12px;
 }
-
-.objectivesColumn {
-  float: left;
-  margin: 25px;
-}
-
-.industriesColumn {
-  float: left;
-  margin: 25px;
-}
-
-.birdeyeBusiness {
-  float: left;
-}
-.learnMore {
-  float: left;
-}
-.learnMore h4 {
-  margin-left: 25px;
+#footer h5 {
+  padding-bottom: 6px;
   margin-bottom: 20px;
+  color: #070707;
+}
+#footer a {
+  color: #000000;
+  text-decoration: none !important;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
 }
 
-.companyColumn {
-  margin-left: 25px;
-  margin-right: 40px;
-  float: left;
+#footer ul.quick-links li a {
+  color: #1a1919;
 }
-.servicesColumn {
-  float: left;
+#footer ul.social li a:hover {
+  color: #eeeeee;
+}
+#footer ul.quick-links li {
+  padding: 3px 0;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+}
+#footer ul.quick-links li:hover {
+  padding: 3px 0;
+  margin-left: 5px;
+  font-weight: 700;
 }
 
-.socialLinks {
-  float: left;
+.changemelater {
+  padding: 0px;
+  margin: 0px;
 }
