@@ -1,0 +1,384 @@
+.hidden {
+  display: none;
+}
+body {
+  padding-top: 50px;
+  font-family: "Poppins", sans-serif !important;
+  box-sizing: border-box;
+}
+
+.homebanner {
+  background-color: #f7f7f7;
+  padding: 165px 0 80px;
+}
+.navbar-collapse ul li a {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+section {
+  padding: 60px 0;
+}
+
+section .section-title {
+  text-align: center;
+  color: #dbe7e4;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+#footer {
+  background-color: #eef1f5 !important;
+  font-size: 12px;
+}
+#footer h5 {
+  padding-bottom: 6px;
+  margin-bottom: 20px;
+  color: #070707;
+}
+#footer a {
+  text-decoration: none !important;
+  background-color: transparent;
+}
+
+#footer ul.quick-links li a {
+  color: #7a909b;
+}
+
+#footer ul.quick-links li {
+  padding: 3px 0;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+}
+#footer ul.quick-links li:hover {
+  padding: 3px 0;
+  margin-left: 5px;
+  font-weight: 700;
+}
+
+#colTitle {
+  color: #000000;
+  font-weight: 500;
+}
+
+.homebanner h1 {
+  font-size: 48px;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -1.67px;
+  margin: 0 0 33px;
+}
+
+.homebanner p {
+  font-size: 20px;
+}
+
+#homeVideoId {
+  transform: translateY(-100px);
+  width: calc(100% - 100px);
+}
+
+.trustingBirdeyeHeading {
+  margin: 80px 0 30px;
+}
+
+.trustingBirdeyeHeading h2 {
+  font-weight: 700;
+  font-size: 42px;
+}
+
+.featureCarousalCont {
+  background-color: #f8f8f8;
+}
+
+.index_heading_line {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.SectionHeading_sectionHeading {
+  margin: 80px 0 30px;
+}
+
+.SectionHeading_sectionHeading h2 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.33;
+  letter-spacing: -0.38px;
+  margin: 0;
+}
+
+.SectionHeading_sectionHeading p {
+  font-size: 20px;
+  line-height: 1.4;
+  margin: 10px 0 0;
+}
+
+.BgCards_card {
+  background-image: url(https://cdn2.birdeye.com/version2/v3/pages/home/smb@2x.png);
+  background-color: rgb(220, 222, 217);
+  padding: 83px 118px;
+  color: #212121;
+}
+
+.BorderLabel_borderLabel {
+  border-color: rgb(33, 33, 33);
+  color: rgb(33, 33, 33);
+}
+
+.BorderLabel_borderLabelLink .BorderLabel_borderLabel {
+  cursor: pointer;
+}
+
+.BorderLabel_borderLabel {
+  border-radius: 4px;
+  border: 1px solid;
+  font-size: 12px;
+  line-height: 24px;
+  padding: 4px 13px;
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.BgCards_cardsContainer .BgCards_card h4 {
+  margin: 21px 0 0;
+}
+.H4_h4 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.27px;
+  color: #212121;
+  margin: 0;
+}
+
+.BgCards_cardsContainer .BgCards_card a {
+  margin: 20px 0 34px;
+}
+
+.HyperLink_atomLink {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.72;
+  color: #1976d2;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  transition: all 0.2s ease-in-out;
+  margin: 0;
+}
+
+.half.fade,
+.half.fadeEven {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.8s ease-in,
+    transform 0.8s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+element.style {
+  background-image: url(https://cdn2.birdeye.com/version2/v3/pages/home/smb@2x.png);
+  background-color: #dcded9;
+}
+.BgCards_cardsContainer .BgCards_card {
+  padding: 83px 118px;
+  color: #212121;
+}
+.half.fade,
+.half.fadeEven {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.8s ease-in,
+    transform 0.8s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+.half {
+  min-height: 580px;
+  margin-top: 10px;
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transform: translateY(10vh);
+}
+
+.custom-container {
+  padding: 0 15px;
+  margin: 0 auto;
+  max-width: 1410px;
+  width: 100%;
+}
+
+.StaticFlywheel_staticFlywheel {
+  margin: 120px 0 60px;
+}
+
+.StaticFlywheel_staticFlywheel .StaticFlywheel_right .StaticFlywheel_heading {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: -0.4px;
+  text-align: center;
+  color: #212121;
+  display: block;
+  margin: 0 0 20px;
+}
+
+.HyperLink_atomLink.HyperLink_large {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.HyperLink_atomLink {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.72;
+  color: #1976d2;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  transition: all 0.2s ease-in-out;
+  margin: 0;
+}
+
+.StaticFlywheel_staticFlywheel .StaticFlywheel_right {
+  text-align: center;
+  -ms-flex-preferred-size: 49%;
+  flex-basis: 49%;
+}
+
+.StaticFlywheel_staticFlywheel {
+  margin: 120px 0 60px;
+}
+
+element.style {
+}
+.StaticFlywheel_staticFlywheel .StaticFlywheel_flex {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.StaticFlywheel_staticFlywheel > div {
+  padding: 30px 0;
+  background-image: url(https://cdn2.birdeye.com/version2/v3/pages/home/flywheel-bg@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.CaseStudy_cardsCont.CaseStudy_homepage {
+  padding: 80px 0;
+  margin: 80px 0 20px;
+  background-color: #212121;
+}
+
+.CaseStudy_cardsCont h3 {
+  margin: 40px 0 0;
+}
+.H3_h3 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: -0.4px;
+  color: #212121;
+  margin: 0;
+}
+
+.CaseStudy_cardsCont .CaseStudy_details .CaseStudy_text p {
+  font-size: 30px;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.CaseStudy_cardsCont .CaseStudy_details .CaseStudy_stats em {
+  font-size: 56px;
+  font-weight: 700;
+  font-style: normal;
+  color: #fff;
+  line-height: 0.7;
+  letter-spacing: -0.51px;
+}
+.CaseStudy_cardsCont .CaseStudy_details .CaseStudy_stats p {
+  margin: 11px 9px 1px 0;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: #fff;
+}
+.CaseStudy_cardsCont .CaseStudy_details .CaseStudy_stats em i {
+  font-size: 33px;
+  font-style: normal;
+  letter-spacing: -0.31px;
+}
+
+.CaseStudy_cardsCont .CaseStudy_details .CaseStudy_stats {
+  font-size: 20px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: #fff;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 59px 0 0;
+}
+.CaseStudy_cardsCont .CaseStudy_details .CaseStudy_stats > div {
+  padding: 0 20px 0 0;
+  max-width: 201px;
+  font-style: normal;
+  border-right: 1px solid #979797;
+}
+
+.CaseStudy_cardsCont .CaseStudy_details .CaseStudy_stats > div:last-child {
+  padding: 0 0 0 43px;
+  border-right: 0;
+  max-width: 225px;
+}
+
+.CaseStudy_cardsCont .CaseStudy_details .CaseStudy_link {
+  text-transform: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.51;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  margin: 30px 0 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.CaseStudy_cardsCont .CaseStudy_details .CaseStudy_imgCont img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-inner > .item > a > img,
+.carousel-inner > .item > img,
+.img-responsive,
+.thumbnail a > img,
+.thumbnail > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.CaseStudy_cardsCont .CaseStudy_details .CaseStudy_text {
+  margin: 20px 0 45px;
+}
+
+.Transparent_nav-right {
+  margin: 0 auto;
+}
+
+.Transparent_nav-right > li {
+  padding: 0 10px;
+}

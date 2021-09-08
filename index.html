@@ -22,24 +22,19 @@
       href="favicon_io/favicon-16x16.png"
     />
     <link rel="manifest" href="/site.webmanifest" />
-    <link rel="stylesheet" href="mystyle.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="styles/mystyle.css" />
 
     <title>Birdeye</title>
   </head>
@@ -130,21 +125,24 @@
             <li>
               <a href="#" class="nav-link active">Pricing</a>
             </li>
+          </ul>
 
+          <ul class="navbar-nav Transparent_nav-right">
             <li>
               <a
                 href="tel:+18005613357"
                 target="_blank"
                 data-clicktag="header_call_lead_link"
                 class="nav-link active"
-                ><img src="images/telephone-logo.svg" alt="" />1 800 561 3357
+                ><img src="images/telephone-logo.svg" alt="" /> &nbsp;1 800 561
+                3357
               </a>
             </li>
             <li>
               <a href="#" class="nav-link active">Sign in</a>
             </li>
+            <button type="button" class="btn btn-primary">Watch Demo</button>
           </ul>
-          <button type="button" class="btn btn-primary">Watch Demo</button>
         </div>
       </div>
     </nav>
@@ -158,8 +156,8 @@
               on autopilot
             </h1>
             <p>
-              Collect reviews, convert leads, run survers, text <br />customers,
-              get referalls -- all in one place.
+              Collect reviews, convert leads, run surveys, text customers, get
+              referrals -- all in one place.
             </p>
 
             <div class="input-group mb-3">
@@ -168,7 +166,7 @@
                 class="form-control"
                 placeholder="Enter your email"
                 aria-label="Enter your email"
-                aria-describedby="basic-addon2"
+                aria-describedby="basic-addon1"
               />
               <div class="input-group-append">
                 <button class="btn btn-primary" type="button">
@@ -180,8 +178,8 @@
           <div
             class="col-md-6 hidden-sm hidden-xs text-center banner_VideoCont"
           >
-            <div class="banner_loopVideo">
-              <video autoplay loop playsinline id="homeVideoId">
+            <div class="banner_loopVideo d-md-none d-sm-none d-lg-block">
+              <video autoplay loop playinline id="homeVideoId">
                 <source
                   src="https://cdn2.birdeye.com/version2/v3/pages/home/hp-hero-new.mp4"
                   type="video/mp4"
@@ -198,7 +196,7 @@
         <div class="row">
           <div class="col-sm-12">
             <div class="text-center trustingBirdeyeHeading">
-              <h2>Over 60,000 businessess of all sizes trust Birdeye</h2>
+              <h2>Over 60,000 businesses of all sizes trust Birdeye</h2>
             </div>
           </div>
         </div>
@@ -208,7 +206,11 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
-            <h1>IMAGES GO HERE</h1>
+            <img
+              style="width: 400px; padding: 10px 0 80px"
+              src="images/sunset.jpg"
+              alt=""
+            />
           </div>
         </div>
       </div>
@@ -217,38 +219,192 @@
     <div class="featureCarousalCont">
       <div class="index_heading">
         <div class="index_heading_line">
-          <span>I am a business looking to </span>
-          <span class="index_dropdownContainer">
-            <ul>
-              <li data-clicktag="dropdown_increasecustomerreviews_link">
-                increase customer reviews
-              </li>
-              <li data-clicktag="dropdown_interactwithcustomers_link">
-                interact with customers
-              </li>
-              <li data-clicktag="dropdown_befoundonline_link">
-                be found online
-              </li>
-              <li data-clicktag="dropdown_engagecustomerslocally_link">
-                engage customers locally
-              </li>
-              <li data-clicktag="dropdown_getcustomerreferrals_link">
-                get customer referrals
-              </li>
-              <li data-clicktag="dropdown_getcustomerfeedback_link">
-                get customer feedback
-              </li>
-              <li data-clicktag="dropdown_solvecustomerproblems_link">
-                solve customer problems
-              </li>
-              <li data-clicktag="dropdown_improvecustomerexperience_link">
-                improve customer experience
-              </li>
-              <li data-clicktag="dropdown_beatcompetitors_link">
-                beat competitors
-              </li>
-            </ul>
-          </span>
+          <label for="cars">I am a business looking to </label>
+          <select name="cars" id="cars">
+            <option value="volvo">increase customer reviews</option>
+            <option value="saab">be found online</option>
+            <option value="mercedes">engage customers locally</option>
+            <option value="audi">get customer referrals</option>
+            <option value="audi">get customer feedback</option>
+            <option value="audi">solve customer problems</option>
+            <option value="audi">improve customer experience</option>
+            <option value="audi">beat competitors</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div class="custom-container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="text-center SectionHeading_sectionHeading">
+            <h2>Which solution is right for you?</h2>
+            <p>
+              Whether you have 1, 10 or 10,000 locations, we got you covered
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="StaticFlywheel_staticFlywheel">
+      <div class="custom-container">
+        <div class="row StaticFlywheel_flex">
+          <div class="col-md-6 StaticFlywheel_left">
+            <img
+              src="https://cdn2.birdeye.com/version2/v3/pages/home/v2/all-in-one-platform-to-drive-customer-acquisition.png"
+              srcset="
+                https://cdn2.birdeye.com/version2/v3/pages/home/v2/all-in-one-platform-to-drive-customer-acquisition@2x.png 2x,
+                https://cdn2.birdeye.com/version2/v3/pages/home/v2/all-in-one-platform-to-drive-customer-acquisition@3x.png 3x
+              "
+              alt="All In One Platform To Drive Customer Acquisition"
+              class=""
+              id=""
+            />
+          </div>
+          <div class="col-md-6 StaticFlywheel_right">
+            <span class="StaticFlywheel_heading"
+              >The all-in-one <br />
+              platform to drive <br />
+              customer acquisition</span
+            ><a
+              class="HyperLink_atomLink HyperLink_large text-center"
+              data-clicktag="flywheel_seewhatbirdeyecandoforyou_link"
+              href="/free-demo/"
+              >See what Birdeye can do for you<span
+                class="HyperLink_linkIconBlock"
+                ><i></i></span
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="BgCards_cardsContainer">
+      <div class="custom-container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="half BgCards_card fade">
+              <a class="BorderLabel_borderLabelLink" href="#"
+                ><label class="BorderLabel_borderLabel"
+                  >Birdeye for Small Businesses</label
+                >
+              </a>
+              <h4 class="H4_h4" style="color: rgb(33, 33, 33)">
+                Come for the reviews,<br />
+                stay for everything else.
+              </h4>
+              <a class="HyperLink_atomLink" href="#">Get started </a>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div
+              class="half BgCards_card fadeEven"
+              style="
+                background-image: url(https://cdn2.birdeye.com/version2/v3/pages/home/enterprise@2x.png);
+                background-color: #000000;
+              "
+            >
+              <a class="BorderLabel_borderLabelLink" href="/enterprise/"
+                ><label
+                  class="BorderLabel_borderLabel"
+                  style="border-color: #ffffff; color: #ffffff"
+                  data-clicktag="learnmore_enterprise_page_button"
+                  >Birdeye for Enterprise</label
+                ></a
+              >
+              <h4 style="color: #ffffff" class="H4_h4">
+                Drive growth at scale<br />
+                for all your locations.
+              </h4>
+              <a
+                class="HyperLink_atomLink HyperLink_darkTheme"
+                data-clicktag="learnmore_enterprise_page_link"
+                href="/enterprise/"
+                >Learn more<span class="HyperLink_linkIconBlock"><i></i></span
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="CaseStudy_cardsCont CaseStudy_black undefined CaseStudy_homepage"
+    >
+      <div class="container">
+        <div class="row buildInItem CaseStudy_details animate" id="caseDetails">
+          <div class="col-md-6">
+            <a
+              class="BorderLabel_borderLabelLink"
+              href="/resources/case-studies/blaze-pizza/"
+              ><label
+                class="BorderLabel_borderLabel undefined"
+                style="border-color: #ffffff; color: #ffffff"
+                data-clicktag="readmore_casestudy_blazepizza_button"
+                >Case Studies</label
+              ></a
+            >
+            <h3 style="color: #e92b73" class="H3_h3">Blaze Pizza</h3>
+            <div class="CaseStudy_text">
+              <p>
+                How 116 restaurants stayed<br />
+                in tune with daily customer experience
+              </p>
+            </div>
+            <div class="CaseStudy_stats clearfix">
+              <div>
+                <em>3<i>X</i></em>
+                <p class="P16_p16">
+                  more revenue<br />
+                  in less than a year
+                </p>
+              </div>
+              <div>
+                <em>11<i>K</i></em>
+                <p class="P16_p16">
+                  new reviews<br />
+                  on 19 sites
+                </p>
+              </div>
+            </div>
+            <a
+              class="CaseStudy_link"
+              data-clicktag="readmore_casestudy_blazepizza_link"
+              href="/resources/case-studies/blaze-pizza/"
+              >Read Blaze Pizza case study<i></i
+            ></a>
+          </div>
+          <div class="col-md-6 CaseStudy_imgCont">
+            <img
+              src="https://cdn2.birdeye.com/version2/v3/pages/home/blaze-pizza-case-studies.png"
+              srcset="
+                https://cdn2.birdeye.com/version2/v3/pages/home/blaze-pizza-case-studies@2x.png 2x,
+                https://cdn2.birdeye.com/version2/v3/pages/home/blaze-pizza-case-studies@3x.png 3x
+              "
+              alt="Blaze Pizza Case Studies"
+              class="img-responsive"
+              id=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="undefined">
+      <div class="custom-container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="text-center SectionHeading_sectionHeading">
+              <h2 style="color: #212121" class="H2_h2">
+                Real results, real ROI
+              </h2>
+              <p style="color: #212121" class="P20_p20">
+                See how businesses like yours found solutions with Birdeye
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -362,5 +518,12 @@
         <hr />
       </div>
     </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="Javascript/script.js"></script>
   </body>
 </html>
