@@ -374,3 +374,11 @@ element.style {
 .CaseStudy_cardsCont .CaseStudy_details .CaseStudy_text {
   margin: 20px 0 45px;
 }
+
+.Transparent_nav-right {
+  margin: 0 auto;
+}
+
+.Transparent_nav-right > li {
+  padding: 0 10px;
+}
